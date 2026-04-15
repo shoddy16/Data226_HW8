@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: USER_DB_HEDGEHOG   # keep same as your dbt debug
+    schema: RAW
+    tables:
+      - name: user_session_channel
+      - name: session_timestamp
